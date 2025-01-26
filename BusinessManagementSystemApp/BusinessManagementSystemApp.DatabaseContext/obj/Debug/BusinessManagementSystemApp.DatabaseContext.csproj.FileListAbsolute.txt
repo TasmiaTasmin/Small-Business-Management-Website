@@ -5,7 +5,6 @@ E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\Business
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.Models.pdb
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.xml
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
-E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csprojAssemblyReference.cache
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.initial.resources
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.addCustomer.resources
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.initial1.resources
@@ -50,3 +49,6 @@ E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\Business
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.CopyComplete
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.dll
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.AssemblyReference.cache

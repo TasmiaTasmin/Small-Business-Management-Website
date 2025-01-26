@@ -1,6 +1,5 @@
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\BusinessManagementSystemApp.Models.dll
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\BusinessManagementSystemApp.Models.pdb
-E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.csprojAssemblyReference.cache
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.csproj.CoreCompileInputs.cache
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.dll
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.pdb
@@ -27,3 +26,16 @@ E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\Business
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.csproj.CopyComplete
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.dll
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.Helpers.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.Razor.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.Razor.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.Helpers.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.Razor.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\bin\Debug\System.Web.WebPages.Razor.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.csproj.AssemblyReference.cache
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Models\obj\Debug\BusinessManagementSystemApp.Models.csproj.CopyComplete

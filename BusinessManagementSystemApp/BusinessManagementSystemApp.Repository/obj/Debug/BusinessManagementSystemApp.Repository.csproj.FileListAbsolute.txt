@@ -1,4 +1,3 @@
-E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.csprojAssemblyReference.cache
 E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.csproj.CoreCompileInputs.cache
 D:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Repository.dll.config
 D:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Repository.dll
@@ -34,3 +33,19 @@ E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\Business
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.csproj.CopyComplete
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.dll
 E:\GitLab\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Repository.dll.config
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Repository.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Repository.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Models.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\EntityFramework.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll.config
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\BusinessManagementSystemApp.Models.pdb
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\EntityFramework.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.csproj.AssemblyReference.cache
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.csproj.CopyComplete
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.dll
+E:\GitHub\Small-Business-Management-Website\BusinessManagementSystemApp\BusinessManagementSystemApp.Repository\obj\Debug\BusinessManagementSystemApp.Repository.pdb
