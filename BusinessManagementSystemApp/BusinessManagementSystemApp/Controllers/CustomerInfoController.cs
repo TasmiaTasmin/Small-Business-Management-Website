@@ -1,9 +1,6 @@
 ﻿using BusinessManagementSystemApp.BLL.Manager;
 using BusinessManagementSystemApp.Models.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BusinessManagementSystemApp.Controllers
@@ -22,19 +19,23 @@ namespace BusinessManagementSystemApp.Controllers
         [HttpPost]
         public ActionResult Insert(CustomerModel customerModel)
         {
-            
+
             if (ModelState.IsValid)
             {
                 if (_customerManager.Insert(customerModel))
                 {
                     ViewBag.SuccessMsg = "Data Saved SuccessFully!";
-                } else {
+                }
+                else
+                {
                     ViewBag.FailMsg = "Data Saved Fail!";
-                } 
-            } else {
+                }
+            }
+            else
+            {
                 ViewBag.FailMsg = "Data Validation Fail!";
             }
-           
+
             return View();
         }
         [HttpGet]
@@ -76,7 +77,7 @@ namespace BusinessManagementSystemApp.Controllers
         public ActionResult Delete(int Id)
         {
             _customerModel.Id = Id;
-            
+
             if (_customerManager.Delete(_customerModel))
             {
                 ViewBag.SuccessMsg = "Data Delete SuccessFully!";
@@ -87,7 +88,7 @@ namespace BusinessManagementSystemApp.Controllers
                 ViewBag.FailMsg = "Data Delete Fail!";
                 Response.Redirect("FindAll");
             }
-           
+
             return View();
         }
         [HttpGet]

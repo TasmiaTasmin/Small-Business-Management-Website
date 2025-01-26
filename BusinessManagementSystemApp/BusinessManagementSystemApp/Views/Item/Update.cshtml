@@ -1,0 +1,47 @@
+﻿@model BusinessManagementSystemApp.Models.Models.ItemViewModel
+@{
+    ViewBag.Title = "Update";
+}
+<div class="container" style="width:70%;margin-top:3%;">
+    <div class="form-group row">
+        <a style="margin-top:2%" href="/Item/Index" class="btn btn-info"><i class="glyphicon glyphicon-list"></i> Item List</a><hr />
+        <h3 class="text-info">Update this item</h3>
+        @if (ViewBag.Message != null)
+        {
+            <h3 width="60%" align="center" class="label-danger">@ViewBag.Message</h3>
+
+        }
+    </div>
+</div>
+@if (Model != null)
+{
+    <div class="container">
+        <form method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />            
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Item Name</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Name" value="@Model.Name" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Price</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Price" value="@Model.Price" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-4"></div>
+                <div class="col-md-5">
+                    <input type="submit" class="btn btn-block btn-success" value="Update" />
+                </div>
+            </div>
+        </form>
+    </div>
+}

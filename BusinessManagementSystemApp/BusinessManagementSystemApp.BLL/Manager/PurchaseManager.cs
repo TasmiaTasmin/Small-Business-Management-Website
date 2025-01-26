@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessManagementSystemApp.BLL.BLL
+namespace BusinessManagementSystemApp.BLL.Manager
 {
     public class PurchaseManager
     {

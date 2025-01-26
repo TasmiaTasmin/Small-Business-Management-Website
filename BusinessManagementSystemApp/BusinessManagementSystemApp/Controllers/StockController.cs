@@ -1,9 +1,11 @@
 ﻿using BusinessManagementSystemApp.BLL.Manager;
-using BusinessManagementSystemApp.Models;
 using BusinessManagementSystemApp.Models.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Runtime.InteropServices;
 using System.Web;
 using System.Web.Mvc;
 
@@ -17,7 +19,12 @@ namespace BusinessManagementSystemApp.Controllers
         Product _product = new Product();
 
 
-        // GET: Stock
+        // GET: StockM
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult Search()
         {
 
@@ -27,7 +34,7 @@ namespace BusinessManagementSystemApp.Controllers
 
 
         [HttpPost]
-        public ActionResult Search(StockVM  stockVM, DateTime startDate, DateTime endDate)
+        public ActionResult Search(StockVM stockVM, DateTime startDate, DateTime endDate)
         {
 
 
@@ -83,39 +90,40 @@ namespace BusinessManagementSystemApp.Controllers
 
             _product.ProductName = stockVM.ProductName;
             _product.CategoryName = stockVM.CategoryName;
-                List<StockVM> products = _productManager.GetProductsWithCatagory(_product).Select(c => new StockVM
-                {
-                    ProductName = c.ProductName,
-                    CategoryName = c.Category.CategoryName,
-                    ReorderLevel = c.ReorderLevel,
-                    Code = c.ProductCode,
-                }).ToList();
+            List<StockVM> products = _productManager.GetProductsWithCatagory(_product).Select(c => new StockVM
+            {
+                ProductName = c.ProductName,
+                CategoryName = c.Category.CategoryName,
+                ReorderLevel = c.ReorderLevel,
+                Code = c.ProductCode,
+            }).ToList();
 
-                foreach (var product in products)
+            foreach (var product in products)
+            {
+                Product pro = new Product();
+                pro.ProductName = product.ProductName;
+                pro.ProductCode = product.Code;
+                pro.CategoryName = product.CategoryName;
+                pro.ReorderLevel = product.ReorderLevel;
+                var availableQuantity = _productManager.AvailableQuantity(pro);
+                foreach (var item in products)
                 {
-                    Product pro = new Product();
-                    pro.ProductName = product.ProductName;
-                    pro.ProductCode = product.Code;
-                    pro.CategoryName = product.CategoryName;
-                    pro.ReorderLevel = product.ReorderLevel;
-                    var availableQuantity = _productManager.AvailableQuantity(pro);
-                    foreach (var item in products)
+                    if (item.ProductName == pro.ProductName)
                     {
-                        if (item.ProductName == pro.ProductName)
-                        {
-                      
-                            item.Code = pro.ProductCode;
-                            item.ProductName= pro.ProductName;
-                            item.CategoryName = pro.CategoryName;
-                            item.ReorderLevel = pro.ReorderLevel;
-                            item.Quantity =availableQuantity.Quantity ;
 
-                        }
+                        item.Code = pro.ProductCode;
+                        item.ProductName = pro.ProductName;
+                        item.CategoryName = pro.CategoryName;
+                        item.ReorderLevel = pro.ReorderLevel;
+                        item.Quantity = availableQuantity.Quantity;
 
                     }
+
                 }
+            }
 
             return View(stockVM);
         }
+
     }
 }

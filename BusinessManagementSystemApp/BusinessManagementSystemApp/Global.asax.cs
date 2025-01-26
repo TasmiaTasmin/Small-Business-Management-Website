@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using BusinessManagementSystemApp.Models;
 using BusinessManagementSystemApp.Models.Models;
+using BusinessManagementSystemApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

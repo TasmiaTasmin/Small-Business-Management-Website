@@ -1,15 +1,13 @@
 ﻿using AutoMapper;
-using BusinessManagementSystemApp.BLL.BLL;
 using BusinessManagementSystemApp.BLL.Manager;
-using BusinessManagementSystemApp.Models;
 using BusinessManagementSystemApp.Models.Models;
+using BusinessManagementSystemApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
 
 namespace BusinessManagementSystemApp.Controllers
 {

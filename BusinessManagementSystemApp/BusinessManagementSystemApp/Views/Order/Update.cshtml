@@ -1,0 +1,119 @@
+﻿@model BusinessManagementSystemApp.Models.Models.OrderViewModel
+@{
+    ViewBag.Title = "Update";
+}
+<div class="container" style="width:70%;margin-top:3%;">
+    <div class="form-group row">
+        <a style="margin-top:2%" href="/Order/Index" class="btn btn-info"><i class="glyphicon glyphicon-list"></i> Order List</a><hr />
+        <h3 class="text-info">Update this item</h3>
+        @if (ViewBag.Message != null)
+        {
+            <h3 width="60%" align="center" class="label-danger">@ViewBag.Message</h3>
+
+        }
+    </div>
+</div>
+@if (Model != null)
+{
+    <div class="container">
+        <form method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />           
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Customer Name</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="CustName" value="@Model.CustName"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Customer Contact</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Contact" value="@Model.CustContact"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Customer Address</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Address" value="@Model.CustAddress"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Product Id</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="ProductId" value="@Model.ProductId"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Product Name</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="ProductName" value="@Model.ProductName"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Quantity</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Quantity" value="@Model.ProductQuantity"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Unit Price</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Price" value="@Model.ProductUnitPrice"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Total Price</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="TotalPrice" value="@Model.TotalPrice"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Paid</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Paid" value="@Model.Paid"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label>Due</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="Due" value="@Model.Due"/>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-4"></div>
+                <div class="col-md-5">
+                    <input type="submit" class="btn btn-block btn-success" value="Update" />
+                </div>
+            </div>
+        </form>
+    </div>
+}
